@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="07/05/2011 19:50:46" ReportInfo.Modified="10/27/2020 13:47:35" ReportInfo.CreatorVersion="2020.3.0.0">
+  <ScriptText>using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Data;
+using FastReport;
+using FastReport.Data;
+using FastReport.Dialog;
+using FastReport.Barcode;
+using FastReport.Table;
+using FastReport.Utils;
+
+namespace FastReport
+{
+  public class ReportScript
+  {
+
+    private void Data2_AfterData(object sender, EventArgs e)
+    {
+      
+          
+    }         
+  }
+}
+</ScriptText>
+  <Dictionary/>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="210.1" PaperHeight="148.1" RawPaperSize="11" LeftMargin="0" TopMargin="0" RightMargin="0" BottomMargin="0" FirstPageSource="15" OtherPagesSource="15" Watermark.Font="宋体, 60pt">
+    <PageHeaderBand Name="PageHeader1" Width="794.18" Height="94.5">
+      <LineObject Name="Line1" Left="29.45" Top="94.5" Width="715.2"/>
+      <TextObject Name="Text37" Left="274.05" Top="28.35" Width="160.65" Height="37.8" Text="Page Header" Font="宋体, 15pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data2" Top="98.5" Width="794.18" Height="403.8" CanGrow="true" CanShrink="true" AfterDataEvent="Data2_AfterData" CanBreak="true">
+      <TextObject Name="Text36" Left="37.8" Top="29.11" Width="718.2" Height="145.3" CanGrow="true" Text="包膜：  光整  不光整&#13;&#10;包膜：  光整  不光整&#13;&#10;包膜：  光整  不光整&#13;&#10;包膜：  光整  不光整&#13;&#10;包膜：  光整  不光整&#13;&#10;包膜：  光整  不光整" Font="楷体, 14pt"/>
+      <TextObject Name="Text15" Left="37.8" Top="237.15" Width="718.2" Height="91.05" CanGrow="true" Text="扫描序列：AX(T2IWfs,T1WI,+C) COR(T2IWfs,T1WI,+C)   颈部软组织双侧对称，软组织间隙清晰，淋巴结未见明显肿大，余未见异常软组织信号影，血管流空正常。增强后未见明显异常强化灶。扫描所见颈椎椎体及附件信号无异常改变，颈髓信号如常扫描序列：AX(T2IWfs,T1WI,+C) COR(T2IWfs,T1WI,+C)    颈部软组织双侧对称，软组织间隙清晰，淋巴结未见明显肿大，余未见异常软组织信号影，血管流空正常。增强后未见明显异常强化灶。扫描所见颈椎椎体及附件信号无异常改变，颈髓信号如常扫描序列：AX(T2IWfs,T1WI,+C) COR(T2IWfs,T1WI,+C)    颈部软组织双侧对称，软组织间隙清晰，淋巴结未见明显肿大，余未见异常软组织信号影，血管流空正常。增强后未见明显异常强化灶。扫描所见颈椎椎体及附件信号无异常改变，颈髓信号如常扫描序列：AX(T2IWfs,T1WI,+C) COR(T2IWfs,T1WI,+C)    颈部软组织双侧对称，软组织间隙清晰，淋巴结未见明显肿大，余未见异常软组织信号影，血管流空正常。增强后未见明显异常强化灶。扫描所见颈椎椎体及附件信号无异常改变，颈髓信号如常扫描序列：AX(T2IWfs,T1WI,+C) COR(T2IWfs,T1WI,+C)    颈部软组织双侧对称，软组织间隙清晰，淋巴结未见明显肿大，余未见异常软组织信号影，血管流空正常。增强后未见明显异常强化灶。扫描所见颈椎椎体及附件信号无异常改变，颈髓信号如常&#13;&#10;" Font="楷体, 14pt"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="506.3" Width="794.18" Height="66.15">
+      <TextObject Name="Text19" Left="37.8" Top="43.95" Width="727.65" Height="18.9" Anchor="Bottom, Left" Text="Page Footer&#13;&#10;" HorzAlign="Center" VertAlign="Center" Font="宋体, 10.5pt"/>
+      <LineObject Name="Line3" Left="37.8" Top="39.95" Width="727.65" Anchor="Bottom, Left"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>
